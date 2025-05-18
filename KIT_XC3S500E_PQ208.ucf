@@ -1,0 +1,260 @@
+#KIT MOI
+# PlanAhead Generated physical constraints 
+#NET "led0" 	LOC = P28;
+#NET "led[0]" 	LOC = P28;
+#NET "led[1]" 	LOC = P29;
+#NET "led[2]" 	LOC = P30;
+#NET "led[3]" 	LOC = P31;
+#NET "led[4]" 	LOC = P33;
+#NET "led[5]" 	LOC = P34;
+#NET "led[6]" 	LOC = P35;
+#NET "led[7]" 	LOC = P36;
+#NET "led[8]" 	LOC = P39;
+#NET "led[9]" 	LOC = P40;
+#NET "led[10]"  LOC = P41;
+#NET "led[11]"  LOC = P42;
+#NET "led[12]"  LOC = P45;
+#NET "led[13]"  LOC = P47;
+#NET "led[14]"  LOC = P48;
+#NET "led[15]"  LOC = P49;
+
+#NET "sw0" LOC = P175;
+NET "sw[0]" LOC = P175;
+NET "sw[1]" LOC = P169;
+#NET "sw[2]" LOC = P159;
+#NET "sw[3]" LOC = P154;
+#NET "sw[4]" LOC = P148;
+#NET "sw[5]" LOC = P142;
+#NET "sw[6]" LOC = P136;
+#NET "sw[7]" LOC = P130;
+#
+#NET "sw[8]"  LOC = P124;
+#NET "sw[9]"  LOC = P118;
+#NET "sw[10]" LOC = P110;
+#NET "sw[11]" LOC = P54;
+#NET "sw[12]" LOC = P57;
+#NET "sw[13]" LOC = P58;
+#NET "sw[14]" LOC = P71;
+#NET "sw[15]" LOC = P101;
+
+#
+#NET "btn0" LOC = P51;
+NET "swp" LOC = P71;
+NET "btn[0]" LOC = P51;
+NET "btn[1]" LOC = P43;
+NET "btn[2]" LOC = P32;
+#NET "btn[3]" LOC = P26;
+#NET "btn[4]" LOC = P20;
+#NET "btn[5]" LOC = P14;
+#NET "btn[6]" LOC = P6;
+#NET "btn[7]" LOC = P169;
+#NET "btn[8]" LOC = P194;
+
+#NET "led0" LOC = P49;
+NET "CKHT" LOC = P183;
+#NET "sw0" LOC = P175;
+#NET "btn0" LOC = P51;
+
+#NET "HWX" LOC = P194;
+NET "DS18B20" LOC = P178;
+#NET "DHT11" LOC = P50;
+NET "BELL" LOC = P55;
+
+#--GIAO TIEP I2C
+#NET "I2C_SCL" LOC = P180;
+#NET "I2C_SDA" LOC = P179;
+#
+#NET "MBI_G" LOC = P89;	#G
+#NET "MBI_LE" LOC = P90;	#LE
+#NET "MBI_SCK" LOC = P93;	#SCK
+#NET "MBI_SDI" LOC = P96;	#SDI
+#
+#
+#NET "sseg[0]" LOC = P16;
+#NET "sseg[1]" LOC = P15;
+#NET "sseg[2]" LOC = P19;
+#NET "sseg[3]" LOC = P18;
+#NET "sseg[4]" LOC = P22;
+#NET "sseg[5]" LOC = P24;
+#NET "sseg[6]" LOC = P23;
+#NET "sseg[7]" LOC = P25;
+#
+#NET "cathode" LOC = P12;
+
+#NET "cathode[0]" LOC = P3;
+#NET "cathode[1]" LOC = P2;
+#NET "cathode[2]" LOC = P5;
+#NET "cathode[3]" LOC = P4;
+#NET "cathode[4]" LOC = P8;
+#NET "cathode[5]" LOC = P11;
+#NET "cathode[6]" LOC = P9;
+#NET "cathode[7]" LOC = P12;
+
+
+
+#NET "motor_step[0]" LOC = P78;
+#NET "motor_step[1]" LOC = P77;
+#NET "motor_step[2]" LOC = P82;
+#NET "motor_step[3]" LOC = P83;
+#
+#NET "motor_dc[0]" LOC = P75;
+#NET "motor_dc[1]" LOC = P76;
+#
+#NET "mbi_spi[0]" LOC = P89;	#oe
+#NET "mbi_spi[1]" LOC = P90;	#oe
+#NET "mbi_spi[2]" LOC = P93;	#oe
+#NET "mbi_spi[3]" LOC = P96;	#oe
+#
+#NET "enca" LOC = P72;
+#NET "encb" LOC = P80;
+#NET "enck" LOC = P87;	#joyk
+#NET "joyk" LOC = P206;
+#NET "irf" LOC = P194;
+#NET "encodera" LOC = P204;
+#
+#NET "spi_mosi" LOC = P99;	
+#NET "spi_miso" LOC = P91;	
+#NET "spi_ss"   LOC = P102;	
+#NET "spi_rst"  LOC = P98;	
+#NET "spi_sck"  LOC = P100;	
+
+
+#NET "lcd_rw" LOC = P203;
+#--GIAO TIEP DK LCD
+
+NET "lcd_rs" LOC = P205;
+NET "lcd_e" LOC = P203;
+#
+#
+NET "lcd_db[0]" LOC = P202;
+NET "lcd_db[1]" LOC = P200;
+NET "lcd_db[2]" LOC = P199;
+NET "lcd_db[3]" LOC = P197;
+NET "lcd_db[4]" LOC = P196;
+NET "lcd_db[5]" LOC = P193;
+NET "lcd_db[6]" LOC = P192;
+NET "lcd_db[7]" LOC = P190;
+NET "lcd_p" 	 LOC = P189;
+
+
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+#--GIAO TIEP SRAM IS61LV25616
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+# ADDRESS BUS 18 BIT
+
+#NET "SRAM_ADDR_O[0]" LOC = P119;
+#NET "SRAM_ADDR_O[1]" LOC = P120;
+#NET "SRAM_ADDR_O[2]" LOC = P116;
+#NET "SRAM_ADDR_O[3]" LOC = P128;
+#NET "SRAM_ADDR_O[4]" LOC = P129;
+#NET "SRAM_ADDR_O[5]" LOC = P132;
+#NET "SRAM_ADDR_O[6]" LOC = P133;		
+#NET "SRAM_ADDR_O[7]" LOC = P137;
+#NET "SRAM_ADDR_O[8]" LOC = P138;
+#NET "SRAM_ADDR_O[9]" LOC = P139;
+#NET "SRAM_ADDR_O[10]" LOC = P140;
+#NET "SRAM_ADDR_O[11]" LOC = P153;
+#NET "SRAM_ADDR_O[12]" LOC = P152;
+#NET "SRAM_ADDR_O[13]" LOC = P151;
+#NET "SRAM_ADDR_O[14]" LOC = P150;
+#NET "SRAM_ADDR_O[15]" LOC = P147;
+#NET "SRAM_ADDR_O[16]" LOC = P135;
+#NET "SRAM_ADDR_O[17]" LOC = P134;
+
+# DATA BUS 16 BIT
+
+#NET "SRAM_DATA_IO[0]" LOC = P161;
+#NET "SRAM_DATA_IO[1]" LOC = P162;
+#NET "SRAM_DATA_IO[2]" LOC = P163;
+#NET "SRAM_DATA_IO[3]" LOC = P164;
+#NET "SRAM_DATA_IO[4]" LOC = P165;
+#NET "SRAM_DATA_IO[5]" LOC = P167;
+#NET "SRAM_DATA_IO[6]" LOC = P146;
+#NET "SRAM_DATA_IO[7]" LOC = P145;
+#
+#NET "SRAM_DATA_IO[8]"  LOC = P127;
+#NET "SRAM_DATA_IO[9]"  LOC = P126;
+#NET "SRAM_DATA_IO[10]" LOC = P122;
+#NET "SRAM_DATA_IO[11]" LOC = P123;
+#NET "SRAM_DATA_IO[12]" LOC = P107;
+#NET "SRAM_DATA_IO[13]" LOC = P106;
+#NET "SRAM_DATA_IO[14]" LOC = P109;
+#NET "SRAM_DATA_IO[15]" LOC = P108;
+
+#CONTROL BUS
+#NET "SRAM_OE_N" LOC = P113;
+#NET "SRAM_CE_N" LOC = P160;
+#NET "SRAM_WE_N" LOC = P144;
+#NET "SRAM_UB_N" LOC = P115;
+#NET "SRAM_LB_N" LOC = P112;
+
+
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+#--GIAO TIEP SDRAM IS42S16400
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+# ADDRESS BUS 18 BIT CHUNG BUS VOI TU A0 DEN A9
+#NET "SDRAM_ADDR_O[0]" LOC = P34;
+#NET "SDRAM_ADDR_O[1]" LOC = P35;
+#NET "SDRAM_ADDR_O[2]" LOC = P36;
+#NET "SDRAM_ADDR_O[3]" LOC = P39;
+#NET "SDRAM_ADDR_O[4]" LOC = P5;
+#NET "SDRAM_ADDR_O[5]" LOC = P4;
+#NET "SDRAM_ADDR_O[6]" LOC = P3;		
+#NET "SDRAM_ADDR_O[7]" LOC = P2;
+#NET "SDRAM_ADDR_O[8]" LOC = P205;
+#NET "SDRAM_ADDR_O[9]" LOC = P203;
+#
+#NET "SDRAM_ADDR_O[10]" LOC = P33;
+#NET "SDRAM_ADDR_O[11]" LOC = P202;
+#
+#NET "SDRAM_BA_O[0]" LOC = P30;
+#NET "SDRAM_BA_O[1]" LOC = P31;
+
+# DATA BUS 16 BIT CHUNG VOI SRAM
+
+#NET "SDRAM_DATA_IO[0]" LOC = P9;
+#NET "SDRAM_DATA_IO[1]" LOC = P11;
+#NET "SDRAM_DATA_IO[2]" LOC = P12;
+#NET "SDRAM_DATA_IO[3]" LOC = P15;
+#NET "SDRAM_DATA_IO[4]" LOC = P16;
+#NET "SDRAM_DATA_IO[5]" LOC = P18;
+#NET "SDRAM_DATA_IO[6]" LOC = P19;
+#NET "SDRAM_DATA_IO[7]" LOC = P22;
+#NET "SDRAM_DATA_IO[8]" LOC = P196;
+#NET "SDRAM_DATA_IO[9]" LOC = P192;
+#NET "SDRAM_DATA_IO[10]" LOC = P193;
+#NET "SDRAM_DATA_IO[11]" LOC = P189;
+#NET "SDRAM_DATA_IO[12]" LOC = P190;
+#NET "SDRAM_DATA_IO[13]" LOC = P187;
+#NET "SDRAM_DATA_IO[14]" LOC = P181;
+#NET "SDRAM_DATA_IO[15]" LOC = P180;
+
+#CONTROL BUS
+#NET "SDRAM_RAS_N" LOC = P28;
+#NET "SDRAM_CAS_N" LOC = P25;
+#NET "SDRAM_CS_N" LOC = P29;
+#NET "SDRAM_WE_N" LOC = P24;
+#NET "SDRAM_LDQM" LOC = P23;
+#NET "SDRAM_UDQM" LOC = P197;
+#NET "SDRAM_RSCLK" LOC = P200;
+#NET "SDRAM_RSCKE" LOC = P199;
+
+
+
+
+#--GIAO RS232 - USB
+#NET "RXD_USB" LOC = P174;
+#NET "TXD_USB" LOC = P172;
+#NET "RXD_SIM" LOC = P69;
+#NET "TXD_SIM" LOC = P65;
+#NET "RXD_BT" LOC = P64;
+#NET "TXD_BT" LOC = P61;
+#NET "RXD_WF" LOC = P63;
+#NET "TXD_WF" LOC = P68;
+#
+#NET "hx_ck" LOC = P62;
+#NET "hx_dt" LOC = P60;
+#NET "kp_ck" LOC = P97;
+#NET "kp_dt" LOC = P94;
