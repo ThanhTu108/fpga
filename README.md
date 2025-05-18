@@ -1,0 +1,14 @@
+|nd_ds18b20_ht_lcd_triac_ssbd
+---ic1: dkhien_bell 
+-------u0: bell-bip
+---ic2: chia_10ena
+---ic3: cai_ghan_ndo_2btn
+-------u1: debouce_btn
+-------u2: debouce_btn
+-------u3: dem_np_6bit_ud
+-------u4: lam_hep_xung
+---ic4: hextobcd_6bit
+---ic5: ds18b20_control
+---ic6: hextobcd_8bit
+---ic7: lcd_gan_dl_5so
+---ic8: lcd_ktao_ht
